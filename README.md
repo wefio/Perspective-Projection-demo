@@ -12,7 +12,7 @@
 
 # <center><font color=blue>**一、单应性变换 —— 矩形$\Leftrightarrow$不规则四边形<font color=red>（scikit-image)**</font></font></center>
 ## <center><font color=blue>**1、矩形$\Rightarrow$不规则四边形**</font></center>
-'''bash
+```bash
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -69,10 +69,10 @@ plt.subplots_adjust(wspace=0.3)
 
 # 显示结果
 plt.show()
-'''
+```
 ![image](https://github.com/user-attachments/assets/6b76cb98-78ab-4db3-bce6-3025c804d02e)
 ## <center><font color=blue>**2、不规则四边形$\Rightarrow$矩形**</font></center>
-'''bash
+```bash
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -205,7 +205,7 @@ plt.title('Destination Image with Source Embedded')
 plt.axis('off')
 
 plt.show()
-'''
+```
 ![image](https://github.com/user-attachments/assets/2a9c89ab-0758-4125-8009-19eb66cd783a)
 
 # <center><font color=blue>**三、单应性变换 —— 把墙上的涂鸦替换为风景画<font color=red>（scikit-image)**</font></font></center>
@@ -216,7 +216,7 @@ plt.show()
 <br><center>![graffiti](./images/graffiti_mask.png)
 
 ### 黑白单通道蒙版
-'''bash
+```bash
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -294,10 +294,10 @@ plt.title('Final Image with Source Embedded')
 plt.axis('off')
 
 plt.show()
-'''
+```
 ![image](https://github.com/user-attachments/assets/3d0491f3-85b6-4544-87ff-76b406f28655)
 ### 三通道蒙版
-'''bash
+```bash
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -378,5 +378,5 @@ plt.title('Final Image with Source Embedded')
 plt.axis('off')
 
 plt.show()
-'''
+```
 ![image](https://github.com/user-attachments/assets/6443f3c7-ab32-4540-968b-49cf8d9daa49)
