@@ -11,7 +11,7 @@
 <p>提供文件夹内图片和在线图片可选</p>
 
 # <center><font color=blue>**一、单应性变换 —— 矩形→不规则四边形<font color=red>（scikit-image)**</font></font></center>
-## <center><font color=blue>**1、矩形$\Rightarrow$不规则四边形**</font></center>
+## <center><font color=blue>**1、矩形→不规则四边形**</font></center>
 ```bash
 import cv2
 import matplotlib.pyplot as plt
