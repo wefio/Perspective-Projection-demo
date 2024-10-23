@@ -8,9 +8,9 @@
 ![painting](https://github.com/user-attachments/assets/134834b0-293b-4d26-8c4b-7899f744e334)
 ![graffiti](https://github.com/user-attachments/assets/f99113aa-6b45-4826-8a77-ddd01bd9cef1)
 ![graffiti_mask](https://github.com/user-attachments/assets/6db799d7-2859-4511-9038-b229846e0eb2)
-提供文件夹内图片和在线图片可选
+<p>提供文件夹内图片和在线图片可选</p>
 
-# <center><font color=blue>**一、单应性变换 —— 矩形$\Leftrightarrow$不规则四边形<font color=red>（scikit-image)**</font></font></center>
+# <center><font color=blue>**一、单应性变换 —— 矩形→不规则四边形<font color=red>（scikit-image)**</font></font></center>
 ## <center><font color=blue>**1、矩形$\Rightarrow$不规则四边形**</font></center>
 ```bash
 import cv2
@@ -71,7 +71,7 @@ plt.subplots_adjust(wspace=0.3)
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/6b76cb98-78ab-4db3-bce6-3025c804d02e)
-## <center><font color=blue>**2、不规则四边形$\Rightarrow$矩形**</font></center>
+## <center><font color=blue>**2、不规则四边形→矩形**</font></center>
 ```bash
 import cv2
 import matplotlib.pyplot as plt
